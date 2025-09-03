@@ -41,14 +41,14 @@ const Hero: React.FC = () => {
               kncharan997@gmail.com
             </a>
             <a
-              href="#"
+              href="https://www.linkedin.com/in/charan-k-n/"
               className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-6 py-3 rounded-full hover:bg-white/20 transition-all duration-300 hover:scale-105"
             >
               <Linkedin size={18} />
               LinkedIn
             </a>
             <a
-              href="#"
+              href="https://github.com/kncharan997"
               className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-6 py-3 rounded-full hover:bg-white/20 transition-all duration-300 hover:scale-105"
             >
               <Github size={18} />

@@ -47,12 +47,12 @@ const Contact: React.FC = () => {
     {
       icon: <Linkedin className="text-blue-600" size={24} />,
       label: 'LinkedIn',
-      href: '#'
+      href: 'https://www.linkedin.com/in/charan-k-n/'
     },
     {
       icon: <Github className="text-gray-800" size={24} />,
       label: 'GitHub',
-      href: '#'
+      href: 'https://github.com/kncharan997'
     }
   ];
 

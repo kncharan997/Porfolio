@@ -5,9 +5,9 @@ const Projects: React.FC = () => {
   const projects = [
     {
       title: 'Blood Bank Management System',
-      period: '2024 – 2025',
+      period: 'Feb 2025 - May 2025',
       description: 'A comprehensive full-stack web application designed for administrative users to efficiently manage donors, blood inventory, and hospital details with automated processes and secure access controls.',
-      technologies: ['ASP.NET Core', 'React.js', 'HTML', 'CSS', 'JavaScript', 'Entity Framework'],
+      technologies: ['ASP.NET Core', 'HTML', 'CSS', 'JavaScript', 'Entity Framework'],
       features: [
         'Modular backend architecture with ASP.NET Core Web APIs',
         'Intuitive UI with mobile responsiveness and accessibility',
@@ -106,14 +106,17 @@ const Projects: React.FC = () => {
                   </div>
 
                   <div className="flex gap-4 mt-8">
-                    <button className="flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300 hover:scale-105">
+                    {/* <button className="flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300 hover:scale-105">
                       <ExternalLink size={18} />
                       View Project
-                    </button>
-                    <button className="flex items-center gap-2 bg-gray-800 hover:bg-gray-900 text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300 hover:scale-105">
-                      <Github size={18} />
-                      Source Code
-                    </button>
+                    </button> */}
+                    <a href="https://github.com/kncharan997/BloodBank_Management_System" target="_blank" rel="noopener noreferrer">
+                        <button className="flex items-center gap-2 bg-gray-800 hover:bg-gray-900 text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300 hover:scale-105">
+                        <Github size={18} />
+                         Source Code
+                        </button>
+                    </a>
+
                   </div>
                 </div>
               </div>
