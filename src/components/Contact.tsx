@@ -124,7 +124,7 @@ const Contact: React.FC = () => {
             </div>
 
             {/* Contact Form */}
-            <div className="bg-gradient-to-br from-blue-50 to-teal-50 p-8 rounded-2xl">
+            {/* <div className="bg-gradient-to-br from-blue-50 to-teal-50 p-8 rounded-2xl">
               <h3 className="text-2xl font-bold text-gray-900 mb-6">
                 Send a Message
               </h3>
@@ -199,7 +199,7 @@ const Contact: React.FC = () => {
                   Send Message
                 </button>
               </form>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
