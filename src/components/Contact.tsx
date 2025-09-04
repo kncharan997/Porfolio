@@ -1,5 +1,6 @@
 import React from 'react';
 import { Mail, Phone, MapPin, Linkedin, Github} from 'lucide-react';
+import profilePic from './images/profilePic.jpeg';
 
 const Contact: React.FC = () => {
   const contactInfo = [
@@ -53,11 +54,11 @@ const Contact: React.FC = () => {
           <div className="lg:grid lg:grid-cols-3 lg:gap-12 items-center">
             {/* Profile Picture */}
             <div className="flex justify-center mb-12 lg:mb-0">
-              <img
-                src="src/components/images/profilePic.jpeg" /* Replace with actual image path */
+            <img
+                src={profilePic}
                 alt="Profile"
                 className="w-48 h-48 rounded-full object-cover shadow-lg border-4 border-blue-600"
-              />
+            />
             </div>
 
             {/* Contact Information and Social Links */}
