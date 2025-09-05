@@ -24,7 +24,7 @@ const Skills: React.FC = () => {
     {
       title: 'Databases & Tools',
       icon: <Wrench className="text-orange-600" size={24} />,
-      skills: ['Microsoft SQL Server', 'Visual Studio', 'Git', 'Docker', 'Postman'],
+      skills: ['Microsoft SQL Server', 'Visual Studio', 'Git','CI/CD','Jenkins', 'Docker', 'Postman'],
       color: 'orange'
     },
     {
