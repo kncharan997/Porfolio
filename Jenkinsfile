@@ -1,10 +1,7 @@
 pipeline {
     agent {
-        docker {
-            image 'node:18' // Uses Node.js inside Docker
-        }
+        docker { image 'node:18' }
     }
-
     stages {
         stage('Check Node Version') {
             steps {
@@ -12,16 +9,22 @@ pipeline {
                 sh 'npm -v'
             }
         }
-
         stage('Install Packages') {
             steps {
                 sh 'npm install'
             }
         }
-
-        stage('Run App') {
+        stage('Build') {
             steps {
-                sh 'npm start' // Or your custom start script
+                sh 'npm run build'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                sh '''
+                npm install -g gh-pages
+                gh-pages -d dist
+                '''
             }
         }
     }
