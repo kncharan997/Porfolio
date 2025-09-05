@@ -12,8 +12,7 @@ const Projects: React.FC = () => {
         'Modular backend architecture with ASP.NET Core Web APIs',
         'Intuitive UI with mobile responsiveness and accessibility',
         'Advanced search and filter functionality by blood group and donor name',
-        'Automated cleanup of expired inventory with validation logic',
-        'Secure role-based access control for data protection'
+        'Automated cleanup of expired inventory with validation logic'
       ],
       icon: <Database className="text-red-600" size={24} />
     }
