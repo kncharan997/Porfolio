@@ -1,6 +1,6 @@
 import React from 'react';
 import { Mail, Phone, MapPin, Linkedin, Github} from 'lucide-react';
-import profilePic from './images/profilePic.jpeg';
+import profilePic from './images/profprofilePic.jpg';
 
 const Contact: React.FC = () => {
   const contactInfo = [
