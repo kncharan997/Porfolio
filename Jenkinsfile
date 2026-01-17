@@ -11,7 +11,7 @@ pipeline {
         }
         stage('Install Packages') {
             steps {
-                sh 'npm install'
+                sh 'npm ci' // Faster, cleaner install in CI environments
             }
         }
         stage('Build') {
@@ -21,10 +21,12 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                sh '''
-                npm install -g gh-pages
-                gh-pages -d dist
-                '''
+                withEnv(["CI=true"]) {  // Treats this as a CI environment for npm scripts
+                    sh '''
+                    npm install -g gh-pages
+                    gh-pages -d dist
+                    '''
+                }
             }
         }
     }
