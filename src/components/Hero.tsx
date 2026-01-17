@@ -20,8 +20,7 @@ const Hero: React.FC = () => {
               Associate Software Engineer
             </p>
             <p className="text-lg md:text-xl text-blue-200 max-w-2xl mx-auto leading-relaxed">
-              Passionate full-stack developer with expertise in .NET technologies, 
-              crafting scalable solutions and delivering exceptional user experiences.
+              Passionate backend developer with expertise in Java Spring Framework, crafting scalable REST APIs and delivering robust microservices solutions.
             </p>
           </div>
 

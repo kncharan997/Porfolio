@@ -2,44 +2,50 @@ import React from 'react';
 import { Code, Database, Monitor, Wrench, Brain, Users } from 'lucide-react';
 
 const Skills: React.FC = () => {
-  const skillCategories = [
+ const skillCategories = [
     {
       title: 'Programming Languages',
       icon: <Code className="text-blue-600" size={24} />,
-      skills: ['Java', 'C#'],
+      skills: ['Java', 'JavaScript'],
       color: 'blue'
-    },
-    {
-      title: 'Frontend Technologies',
-      icon: <Monitor className="text-teal-600" size={24} />,
-      skills: ['React.js', 'Bootstrap', 'HTML', 'CSS', 'JavaScript'],
-      color: 'teal'
     },
     {
       title: 'Backend Technologies',
       icon: <Database className="text-green-600" size={24} />,
-      skills: ['ASP.NET Core', 'ASP.NET MVC', 'Web API', 'RESTful Services', 'LINQ', 'Entity Framework'],
+      skills: ['Spring Boot', 'Spring MVC', 'Spring Data JPA', 'Hibernate', 'Spring Security (JWT)', 'REST APIs', 'Apache Kafka'],
       color: 'green'
     },
     {
-      title: 'Databases & Tools',
+      title: 'Frontend Technologies',
+      icon: <Monitor className="text-teal-600" size={24} />,
+      skills: ['React.js', 'HTML', 'CSS', 'JavaScript'],
+      color: 'teal'
+    },
+    {
+      title: 'Databases & Cloud',
       icon: <Wrench className="text-orange-600" size={24} />,
-      skills: ['Microsoft SQL Server', 'Visual Studio', 'Git','CI/CD','Jenkins', 'Docker', 'Postman'],
+      skills: ['MySQL', 'MongoDB', 'AWS (EC2, RDS)', 'Docker'],
       color: 'orange'
     },
     {
-      title: 'Concepts & Methodologies',
+      title: 'Tools & DevOps',
+      icon: <Wrench className="text-yellow-600" size={24} />,
+      skills: ['Git', 'Maven', 'Postman', 'Swagger', 'Jira', 'CI/CD'],
+      color: 'yellow'
+    },
+    {
+      title: 'Core Concepts',
       icon: <Brain className="text-purple-600" size={24} />,
-      skills: ['OOP', 'MVC Architecture', 'API Integration', 'Agile (Scrum)', 'SDLC'],
+      skills: ['Data Structures & Algorithms', 'OOP', 'Microservices', 'DBMS', 'Agile/Scrum'],
       color: 'purple'
     },
     {
-      title: 'Soft Skills',
+      title: 'Development Skills',
       icon: <Users className="text-pink-600" size={24} />,
-      skills: ['Problem Solving', 'Team Collaboration', 'Communication', 'Time Management'],
+      skills: ['REST API Design', 'Authentication & Authorization', 'Database Optimization', 'Debugging', 'Problem Solving'],
       color: 'pink'
     }
-  ];
+];
 
   const getColorClasses = (color: string) => {
     const colorMap = {

@@ -8,14 +8,17 @@ const Experience: React.FC = () => {
       company: 'Tech Mahindra',
       location: 'Bangalore',
       period: 'Sept 2024 – Present',
-      department: 'L3 Backend Support - ASP.NET Core',
+      department: 'Java Backend Developer',
       achievements: [
-        'Supported Drona, a Manufacturing Execution System (MES) for Mahindra and Mahindra Ltd., focusing on backend stability and performance improvements',
-        'Effectively diagnosed and resolved production issues including API failures, database errors, and integration challenges',
-        'Coordinated closely with development and product teams to escalate critical bugs and deploy fixes and hotfixes',
+        'Refactored Drona Manufacturing System (MES) backend into modular Spring Boot microservices, improving maintainability and uptime by 20%',
+        'Optimized 15+ REST APIs, reducing average response time from 850ms to 320ms using indexing, query optimization, and caching',
+        'Improved transactional efficiency with Spring Data JPA & Hibernate, reducing redundant database operations by 30%',
+        'Enhanced API reliability through validation, centralized exception handling, and Swagger documentation',
+        'Diagnosed & resolved production issues including API failures, database errors, and integration challenges',
         'Conducted root cause analysis, backend debugging, and continuous system monitoring to minimize downtime',
-        'Maintained clear documentation of troubleshooting steps and resolutions to enhance team knowledge'
+        'Collaborated with development & product teams to deploy critical fixes and hotfixes via Git, Maven, Docker, and Jira'
       ]
+
     }
   ];
 
