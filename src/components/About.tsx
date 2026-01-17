@@ -16,14 +16,10 @@ const About: React.FC = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <p className="text-lg text-gray-700 leading-relaxed">
-                Detail-oriented Associate Software Engineer with experience in full-stack development 
-                and expertise in .NET technologies. I excel at analyzing system requirements, 
-                debugging complex issues, and delivering scalable, maintainable software solutions.
+                Detail-oriented Associate Software Engineer with experience in backend development and expertise in Java Spring Framework. Excel at analyzing system requirements, debugging complex issues, and delivering scalable, maintainable software solutions.
               </p>
               <p className="text-lg text-gray-700 leading-relaxed">
-                As a strong collaborator with excellent communication skills, I have a passion for 
-                continuous learning and process improvement. Currently supporting critical production 
-                systems at Tech Mahindra while building innovative solutions.
+               Strong collaborator with excellent communication skills and passion for continuous learning. Currently building innovative Java backend solutions at Tech Mahindra using Spring Framework.
               </p>
             </div>
 
@@ -34,7 +30,7 @@ const About: React.FC = () => {
                 </div>
                 <div>
                   <h3 className="font-semibold text-gray-900 mb-2">Problem Solver</h3>
-                  <p className="text-gray-600">Expert in diagnosing and resolving production issues with systematic approach</p>
+                  <p className="text-gray-600">Good in diagnosing and resolving production issues with systematic approach</p>
                 </div>
               </div>
 
